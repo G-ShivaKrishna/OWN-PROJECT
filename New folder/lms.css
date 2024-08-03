@@ -1,0 +1,67 @@
+.main {
+    display: grid;
+    grid-template-columns: 0.9fr 1fr;
+    align-items: center;
+    grid-template-columns: 20% 80%;
+  }
+  
+  .logo {
+    grid-column: 1;
+    width:fit-content; 
+    justify-self: start;
+    border: 5px solid black;
+    background-color: aqua;
+  }
+  
+  .right {
+  display: grid;
+  width: 70%;
+  grid-template-rows: 20% 80%; 
+  height: 500px;
+  width: 1000px;
+}
+
+.new {
+  grid-row: 1;
+  height: 100%; 
+  width: 100%; 
+}
+
+.login {
+  grid-row: 2;
+  height: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border: 5px solid rgb(231, 19, 19);
+}
+
+.login div {
+  text-align: center; 
+}
+.new button{
+    position: relative;
+    left: 800px;
+    color:white;
+    font-size: large;
+    height: max-content;
+    padding: 5px;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    width: 200px;
+}
+.new p{
+    position: relative;
+    left: 700px;
+    padding: 5px;
+    top: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+.registration input{
+  width: 165px;
+  height: 20px;
+  border: 1.58px solid ;
+  border-radius: 5px;
+}
